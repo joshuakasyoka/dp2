@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to New Post!"
 date:   2022-07-14 11:23:21 +0100
-categories: jekyll update
+categories: [Tech, Jekly]
 ---
 ## This is a new post
 

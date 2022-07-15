@@ -225,13 +225,13 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $brand-color;
+  color: #000000
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-  color: red;
+  // color: red;
 }
 
 

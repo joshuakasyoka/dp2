@@ -2,5 +2,40 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .banner-image {
-    max-height: 300px;
+    max-height: 600px;
+    float: right;
+    margin: -30px;
 }
+
+.title-image {
+    max-height: 10%;
+}
+
+.banner {
+    display: flex;
+    background-color: #7939F7;
+    color: white;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category-tag {
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+// .post-card {
+//     display: flex;
+//     flex-direction: row;
+//     border: 1px solid grey;
+//     border-radius: 5px;
+//     padding: 10px;
+// }
+
+// .banner-image {
+//     max-width: 200px;
+//     max-height: 200px;
+// };

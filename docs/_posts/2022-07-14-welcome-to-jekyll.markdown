@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Laying out your Power BI report"
 date:   2022-07-14 11:23:21 +0100
-categories: jekyll update
+categories: [Business Intelligence, Ideas]
+image: banner-image.png
+description: This is a description of the above post
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

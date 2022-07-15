@@ -4,5 +4,5 @@
 
 layout: home
 title: "Discover"
-description: "Hello this is the description"
+description: "A description of things to Discover"
 ---

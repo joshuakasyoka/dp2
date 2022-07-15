@@ -13,7 +13,7 @@
 
 .banner {
     display: flex;
-    background-color: #7939F7;
+    background-color: $primary-main;
     color: white;
     padding: 30px;
     flex-direction: row;
@@ -26,11 +26,11 @@
     padding-left: 11px;
     padding-right: 11px;
     border-width: 1px;
-    border-color: #7939F7;
+    border-color: $primary-main;
     border-radius: 100px;
     margin-right: 5px;
     border-style: solid;
-    color: #7939F7;
+    color: $primary-main;
 }
 
 

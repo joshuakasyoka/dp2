@@ -3,7 +3,7 @@ layout: post
 title:  "Publishing a Power BI report to Moata"
 date:   2022-07-14 11:23:21 +0100
 categories: [Business Intelligence, Ideas]
-image: moata.png
+image: post-image.png
 description: This is a description of the above post
 ---
 ## This is a new post

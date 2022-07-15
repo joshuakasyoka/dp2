@@ -21,18 +21,23 @@
 }
 
 .category-tag {
-    padding: 5px;
-    background-color: grey;
-    border-radius: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-width: 1px;
+    border-color: #7939F7;
+    border-radius: 100px;
     margin-right: 5px;
+    border-style: solid;
+    color: #7939F7;
 }
+
 
 // .post-card {
 //     display: flex;
 //     flex-direction: row;
-//     border: 1px solid grey;
-//     border-radius: 5px;
-//     padding: 10px;
+//     padding: 24px;
 // }
 
 // .banner-image {

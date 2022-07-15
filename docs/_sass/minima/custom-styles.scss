@@ -34,13 +34,18 @@
 }
 
 
-// .post-card {
-//     display: flex;
-//     flex-direction: row;
-//     padding: 24px;
-// }
+.post-card {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
 
-// .banner-image {
-//     max-width: 200px;
-//     max-height: 200px;
-// };
+.post-image {
+    height: 400px;
+    width: 400px
+
+}

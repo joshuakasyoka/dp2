@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Discover"
+title: "Business Intelligence"
 description: "A description of things to Discover"
 ---

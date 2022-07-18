@@ -20,7 +20,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
+  color: $primary-text;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -200,6 +200,9 @@ pre {
  * Wrapper
  */
 .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;

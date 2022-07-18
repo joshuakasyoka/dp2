@@ -21,11 +21,13 @@
 
   @include media-query($on-palm) {
     padding-right: 45px;
+    height: 30%;
+    width: 30%;
   }
 
   &,
   &:visited {
-    color: $site-title-color;
+    color: $primary-text;
   }
 }
 
@@ -75,7 +77,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $primary-text;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -225,7 +227,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: #000000
+  color: $primary-text
 }
 
 .post-link {

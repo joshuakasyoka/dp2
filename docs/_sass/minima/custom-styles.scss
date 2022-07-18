@@ -1,23 +1,25 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-.banner-image {
-    max-height: 600px;
-    float: right;
-    margin: -30px;
-}
-
-.title-image {
-    max-height: 10%;
-}
-
 .banner {
     display: flex;
     background-color: $primary-main;
-    color: white;
+    color: #FFFFFF;
     padding: 30px;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.banner-image {
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin: -30px;
+
+    @include media-query($on-palm) {
+    height: 65%;
+    width: 65%;
+    }
 }
 
 .category-tag {
@@ -33,22 +35,59 @@
     color: $primary-main;
 }
 
+.tag-container {
+    display: flex;
+    flex-direction: row;
+
+    @include media-query($on-palm) {
+        flex-direction: column;
+        justify-content: space-between;
+
+      }
+}
+
 
 .post-card {
     display: flex;
     flex-direction: row;
     padding: 24px;
     justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 48px;
+    margin-right: 48px;
     margin-top: 50px;
+
+
+@include media-query($on-palm) {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
+
 
 .post-image {
     height: 400px;
-    width: 400px
+    width: 400px;
+
+    @include media-query($on-palm) {
+    height: 200px;
+    width: 200px
+    }
 }
 
 .post-width {
-    margin-right: $spacing-unit * 20 
+    margin-right: $spacing-unit * 2;
+    padding: 48px;
+    width: 100%;
+}
+
+.secondary-navigation {
+    background-color: $light-background;
+    padding: 24px;
+    width: 300px;
+}
+
+.post-body {
+    display: flex;
+    flex-direction: row;
 }
